@@ -105,6 +105,11 @@
   scroll-behavior: smooth;
 }
 
+/* #chat::-webkit-scrollbar-track { */
+  /* background-color: green; */
+  /* outline: 1px solid slategrey; */
+/* } */
+
 #new-message-form {
   grid-area: new-message-form;
   background-color: #aaa;

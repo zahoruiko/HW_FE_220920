@@ -100,6 +100,10 @@
   border-right: 1px solid var(--column__border-color);
   padding: 0px 0px 0px 20px;
   background: linear-gradient(155deg, rgb(255, 255, 255) 0%, #efefefff 100%);
+
+  overflow-y: inherit;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #new-message-form {
@@ -108,10 +112,10 @@
 }
 
 #chat-messages__wrapper {
-  overflow-y: inherit;
+  /* overflow-y: inherit;
   overflow-x: hidden;
-  scroll-behavior: smooth;
-  max-height: 530px;
+  scroll-behavior: smooth; */
+  /* max-height: 530px; */
 }
 
 #chat-messages__list {

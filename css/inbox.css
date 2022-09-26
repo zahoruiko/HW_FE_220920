@@ -45,6 +45,10 @@
   background-color: white;
   border-right: 1px solid var(--column__border-color);
   padding: 0 var(--inbox-padding);
+
+  overflow-y: inherit;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #inbox__output-mode-switcher {
@@ -82,10 +86,11 @@
 }
 
 #contacts-wrapper {
-  overflow-y: inherit;
-  overflow-x: hidden;
-  max-height: 520px;
-  scroll-behavior: smooth;
+  /* height: 100%; */
+  /* overflow-y: inherit; */
+  /* overflow-x: hidden; */
+  /* max-height: 520px; */
+  /* scroll-behavior: smooth; */
 }
 
 .contact__info {

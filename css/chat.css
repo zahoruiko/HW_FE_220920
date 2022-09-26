@@ -111,13 +111,6 @@
   background-color: #aaa;
 }
 
-#chat-messages__wrapper {
-  /* overflow-y: inherit;
-  overflow-x: hidden;
-  scroll-behavior: smooth; */
-  /* max-height: 530px; */
-}
-
 #chat-messages__list {
   display: flex;
   flex-direction: column;

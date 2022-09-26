@@ -37,9 +37,10 @@ figure {
 .wrapper {
   display: grid;
   grid-template-columns: 180px 300px auto 50px;
-  grid-template-rows: 80px auto 70px;
+  grid-template-rows: 80px 40px auto 70px;
   grid-template-areas:
     "site-logo inbox-header chat-header panel"
+    "aside inbox__output-mode-wrapper chat panel"
     "aside inbox chat panel"
     "aside inbox new-message-form panel";
   box-sizing: border-box;

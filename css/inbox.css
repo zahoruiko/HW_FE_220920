@@ -51,19 +51,26 @@
   scroll-behavior: smooth;
 }
 
+#inbox__output-mode-wrapper {
+  grid-area: inbox__output-mode-wrapper;
+  border-right: 1px solid var(--column__border-color);
+  background-color: var(--light__background-color);
+  padding: 0px 20px 10px 20px;
+}
+
 #inbox__output-mode-switcher {
   background-color: var(--dark__background-color);
   border-radius: 10px;
-  padding: 1px;
+  padding: 2px 0 2px 0;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .inbox__output-mode-button {
   width: 48%;
   padding: 6px 0;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: var(--dark__background-color);
   border: 0;
   cursor: pointer;
@@ -85,13 +92,9 @@
   background-color: var(--light__background-color);
 }
 
-#contacts-wrapper {
-  /* height: 100%; */
-  /* overflow-y: inherit; */
-  /* overflow-x: hidden; */
-  /* max-height: 520px; */
-  /* scroll-behavior: smooth; */
-}
+/* #contacts-wrapper {
+
+} */
 
 .contact__info {
   padding: 10px;

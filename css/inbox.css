@@ -45,7 +45,6 @@
   background-color: white;
   border-right: 1px solid var(--column__border-color);
   padding: 0 var(--inbox-padding);
-
   overflow-y: inherit;
   overflow-x: hidden;
   scroll-behavior: smooth;
